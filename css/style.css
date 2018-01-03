@@ -15,9 +15,8 @@ section{
 section .wrap{
     margin: 0 auto;
     width: 34.95rem;
-    height: 98.2rem;
     background: url("../images/boxWrapBg.png") center no-repeat;
-    background-size: cover;
+    background-size: 100% 100%;
 }
 section .wrap .topBg{
     position: absolute;
@@ -30,7 +29,7 @@ section .wrap .topBg{
 }
 section .questionBox{
     box-sizing: border-box;
-    padding: 3.2rem 1.5rem 0 1.4rem;
+    padding: 3.2rem 1.5rem 3rem 1.4rem;
 }
 section .questionBox div p{
     font-size: 1.5rem;
